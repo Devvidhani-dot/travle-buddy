@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Buddy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .item {
+            background-color: rgb(5, 239, 185);
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        li {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="destinations.html"><i class="fas fa-map-marker-alt"></i> Destinations</a></li>
+                <li><a href="packages.html"><i class="fas fa-suitcase"></i> Packages</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h1>Welcome to Travel Paradise</h1>
+        <p>Your gateway to the world's most beautiful destinations.</p>
+        <!-- <img src="images/beach.jpg" alt="Beach Paradise"> -->
+    </section>
+    
+    <main class="explore-section">
+        <h1>Explore Our Packages</h1>
+        <div class="car-grid">
+            <div class="car-card">
+                <img src="https://www.stayvista.com/blog/wp-content/uploads/2023/11/nature-photographer-29ezCWtMtnM-unsplash-1-scaled-1.jpg" alt="India Tour">
+                <h2>7 Days India Tour</h2>
+                <p>Experience breathtaking landscapes and vibrant culture.</p>
+                <p><strong>Price: $2800</strong></p>
+            </div>
+
+            <div class="car-card">
+                <img src="https://www.onthegotours.com/repository/Trevi-Fountain--Rome-795911676465072.jpg" alt="Italy Tour">
+                <h2>Italy 5 Days 6 Night Package</h2>
+                <p>Explore the heart of Italy with a perfect blend of history and luxury.</p>
+                <p><strong>Price: $3200</strong></p>
+            </div>
+
+            <div class="car-card">
+                <img src="https://www.easysim.global/wp-content/uploads/2024/07/france_eiffel_tower.webp" alt="France Tour">
+                <h2>France Tour</h2>
+                <p>Discover the romance and elegance of France.</p>
+                <p><strong>Price: $2300</strong></p>
+            </div>
+
+            <div class="car-card">
+                <img src="https://i.ytimg.com/vi/MNuWA3BN8oc/maxresdefault.jpg" alt="Thailand Tour">
+                <h2>Thailand Tour</h2>
+                <p>Exotic beaches and rich cultural heritage await you.</p>
+                <p><strong>Price: $1500</strong></p>
+            </div>
+            
+            <div class="car-card">
+                <img src="https://www.jastourism.com/uploads/0000/1/2023/06/20/dubai-pic-600.jpg" alt="Dubai Tour">
+                <h2>Dubai Tour</h2>
+                <p>Experience the luxury and modern marvels of Dubai.</p>
+                <p><strong>Price: $8000</strong></p>
+            </div>
+            
+            <div class="car-card">
+                <img src="https://www.thetrainline.com/cms/media/1376/uk-london-tower-bridge-river-thames.jpg?mode=crop&width=660&height=440&quality=70" alt="UK Tour">
+                <h2>UK - London Tour</h2>
+                <p>Visit the iconic landmarks of London.</p>
+                <p><strong>Price: $2000</strong></p>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Travel Paradise. All rights reserved.</p>
+    </footer>
+</body>
+</html>
